@@ -119,9 +119,10 @@ header .navbar a:hover {
 }
 
 header .follow a {
-    font-size: 2.5rem;
+    font-size: 18px;
     color: #fff;
-    margin: 0.7rem;
+    margin: 5px;
+    padding: 5px;
 }
 
 header .follow a:hover {
