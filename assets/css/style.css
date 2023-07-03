@@ -21,6 +21,7 @@
 
 h3 {
     font-size: 18px;
+    color: darkorange;
 }
 
 html {
@@ -335,6 +336,30 @@ header .follow a:hover {
     width: 90%;
 }
 
+h3.heading-3 {
+    font-size: 27px;
+    font-weight: 900;
+    letter-spacing: .5px;
+    color: black;
+    word-spacing: .5px;
+}
+
+span.text-1 {
+    font-size: medium;
+    font-weight: 600;
+}
+
+.project .box ul li {
+    font-size: large;
+    font-style: initial;
+    font-weight: 500;
+    font-family: fangsong;
+}
+
+.content1 {
+    margin-bottom: 30px;
+}
+
 .about .row-2 .box-container {
     flex: 1 1 40rem;
     display: flex;
@@ -373,7 +398,7 @@ header .follow a:hover {
     padding: 2rem;
     background: #fff;
     border-radius: 20px;
-    box-shadow: -2px 7px 13px 1px rgb(199 199 199);
+    box-shadow: -2px 7px 13px 1px rgb(202, 8, 8);
 }
 
 .service .box-container .box i {
@@ -396,6 +421,12 @@ header .follow a:hover {
     color: #666;
     font-size: 1.7rem;
     padding-top: .5rem
+}
+
+.project .content span {
+    font-family: auto;
+    color: orangered;
+    font-size: 20px;
 }
 
 .experience .box-container {
@@ -528,6 +559,7 @@ header .follow a:hover {
     padding: 20px 40px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .1);
     border-radius: 10px;
+    
 }
 
 .contact .row form .box,
